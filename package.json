@@ -1,0 +1,32 @@
+{
+  "name": "first-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazynguyendev/demo-node-app.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "beginer"
+  ],
+  "author": "lazynguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazynguyendev/demo-node-app/issues"
+  },
+  "homepage": "https://github.com/lazynguyendev/demo-node-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
